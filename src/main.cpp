@@ -7,7 +7,7 @@ int main() {
   glfwOpenWindow(200, 200,
       0,0,0,
       0,0,0,
-      0);
+      GLFW_WINDOW);
   //void glfwTerminate(void);
   glfwTerminate();
   return 0;
